@@ -9,5 +9,13 @@
     (1+2)*3 => 9;
 '''
 
+
+input_ = str(input("Введите выражение: "))
+
+
+func = lambda x: eval(x)
+print(f"{input_} = {func(input_)}")
+
+
 operation = '(1 + 2) * 3'
 print(eval(operation))
