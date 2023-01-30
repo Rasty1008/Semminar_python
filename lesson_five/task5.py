@@ -6,7 +6,7 @@
 
 lst = [1, 5, 2, 3, 4, 6, 1, 7]
 
-L = []
+L = [] 
 M = []
 j = 1
 while j < len(lst):
@@ -33,7 +33,7 @@ print(L)
 #Вариант решение рекурсией
 from pprint import pprint
 
-numbers = [1, 5, 2, 3, 4, 6, 1, 2, 7]
+numbers = [1, 5, 2, 3, 4, 6, 1, 2, 7] 
 seq = set()
 
 def find_sequenses(arr, cur_i = 0, cur_seq = tuple()):
